@@ -1,0 +1,55 @@
+<!--
+//	Intro. to GUI 1 HW5
+//  By Ari Primak
+//  This assignment was fun! :)
+//  Date: 8/13/2021
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scrabble</title>
+
+        <script src="js/jquery-1.11.0.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <div id="lineframe">
+            <img id="line" src="graphics_data/Scrabble_Board_OneLine.png">
+            <p id="sq1"></p>
+            <p id="sq2"></p>
+            <p id="sq3" class="dblW"></p>
+            <p id="sq4"></p>
+            <p id="sq5"></p>
+            <p id="sq6"></p>
+            <p id="sq7" class="dblL"></p>
+            <p id="sq8"></p>
+            <p id="sq9" class="dblL"></p>
+            <p id="sq10"></p>
+            <p id="sq11"></p>
+            <p id="sq12"></p>
+            <p id="sq13" class="dblW"></p>
+            <p id="sq14"></p>
+            <p id="sq15"></p>
+        </div>
+        <div id="benchframe">
+            <img id="bench" src="graphics_data/scrabble-tile-holder-406774_640.png">
+            <p id="hand1"></p>
+            <p id="hand2"></p>
+            <p id="hand3"></p>
+            <p id="hand4"></p>
+            <p id="hand5"></p>
+            <p id="hand6"></p>
+            <p id="hand7"></p>
+        </div>
+        <div id="scoreTally" class="end">Last word score: 0 -- Total score: 0</div>
+        <div id="menu">
+            <input type="button" id="start" value="Start Over">
+            <input type="button" id="sbmt" value="Submit Word">
+            <input type="button" id="quit" value="Quit">
+        </div>
+        <div id="final" class="end">Words played: 0</div>
+        <footer>Copyright Ari Primak 2021</footer>
+    </body>
+</html>

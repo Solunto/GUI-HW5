@@ -1,0 +1,203 @@
+/*
+//	Intro. to GUI 1 HW5
+//  By Ari Primak
+//  This assignment was fun! :)
+//  Date: 8/13/2021
+*/
+
+body {
+    position: relative;
+}
+#lineframe {
+    width:1200px;
+    position: absolute;
+    margin:0px auto;
+}
+
+#line {
+    position:absolute;
+    top: 50px;
+    left: 20px;
+}
+
+#benchframe {
+    width: 700px;
+    margin:0px auto;
+    position: absolute;
+    top:180px;
+    left: 250px;
+}
+
+#menu {
+    position: absolute;
+    top: 430px;
+    width: 257px;
+    border: 2px inset black;
+    left: 441px;
+    height: 40px;
+    background-color:lightgrey;
+}
+
+#scoreTally, #final {
+    font-size: 120%;
+    text-align: center;
+    font-weight:bold;
+    border: 2px inset black;
+    background-color:lightgrey;
+    padding-top:2px;
+    height: 26px;
+    
+}
+
+#scoreTally {
+    position: absolute;
+    width: 330px;
+    top: 385px;
+    left: 405px;
+}
+
+#final {
+    position: absolute;
+    width:170px;
+    top:485px;
+    left:484px;
+}
+
+.endColor {
+    color:crimson;
+}
+
+input {
+    width: auto;
+    display: inline;
+    font-size:110%;
+    height: 32px;
+    margin-left:3px;
+    margin-top:4px;
+    margin-right:-4px;
+    padding:3px;
+    background-color:white;
+}
+
+footer {
+    position:fixed;
+    text-align:center;
+    width:99%;
+    bottom: 2%;
+}
+
+p {
+    position:absolute;
+}
+
+p > .tileImg {
+    width:69px;
+    height:69px;
+}
+
+#lineframe > p {
+    width:74px;
+    height:75px;
+    top:35px;
+}
+
+#sq1 {
+    left:20px;
+}
+#sq2 {
+    left:95px;
+}
+
+#sq3 {
+    left:172px;
+    width:73px;
+}
+
+#sq4 {
+    left:247px;
+}
+
+#sq5 {
+    left:322px;
+    width:71px;
+}
+
+#sq6 {
+    left:396px;
+}
+
+#sq7 {
+    left:472px;
+    width:69px;
+}
+
+#sq8 {
+    left:543px;
+}
+
+#sq9 {
+    left:620px;
+    width:70px;
+}
+
+#sq10 {
+    left:694px;
+    width:72px;
+}
+
+#sq11 {
+    left:768px;
+}
+
+#sq12 {
+    left:844px;
+}
+
+#sq13 {
+    left:920px;
+}
+
+#sq14 {
+    left:996px;
+    width:73px;
+}
+
+#sq15 {
+    left:1072px;
+    width:73px;
+}
+
+#benchframe > p {
+    width:70px;
+    height:70px;
+    border: 3px solid black;
+    top:20px;
+}
+
+#hand1 {
+    left: 50px;
+}
+
+#hand2 {
+    left: 130px;
+}
+
+#hand3 {
+    left: 210px;
+}
+
+#hand4 {
+    left: 290px;
+}
+
+#hand5 {
+    left: 370px;
+}
+
+#hand6 {
+    left: 450px;
+}
+
+#hand7 {
+    left: 530px;
+}
